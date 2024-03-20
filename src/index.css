@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: #56b8dd;
+  background: linear-gradient(160deg, rgba(109, 202, 236, 0.829) 0%, rgba(255, 255, 255, 0.801) 75%, rgba(236, 236, 236, 0.815) 100%);
+  min-width: 375px;
+}
+
+/* BACKGROUND STYLING  */
+.bg--main{
+  min-width: 375px;
+  /* border: 2px solid black; */
+}
+
+/* NAVBAR STYLING  */
+.myNavbar:hover{
+  background: #fff;
+}
+
+/* CUSTOM STYLINGS */
+.font--small{
+  font-size: .8rem;
+}
+
+/* MEDICAL ID MEGAMENU STYLINGS  */
+.med--menu{
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .8s ease-in-out;
+  background-color: white;
+}
+.med--id:hover .med--menu{
+  display: block;
+  max-height: 100%;
+}
+.med--card:hover{
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+
