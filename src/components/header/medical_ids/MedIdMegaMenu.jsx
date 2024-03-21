@@ -9,7 +9,8 @@ const MedIdMegaMenu = () => {
         <>
         <Container
             fluid
-            className="vw-100 position-fixed start-0 med--menu rounded-bottom-4">
+            className="vw-100 position-fixed start-0 med--menu rounded-bottom-4"
+            style={{zIndex:'1'}}>
             <Row className="p-2" >
                 <Col lg={9}>
                     <Row>

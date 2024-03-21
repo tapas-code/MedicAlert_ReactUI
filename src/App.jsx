@@ -1,10 +1,11 @@
 import React from 'react'
-import Header from './components/header/Header'
+import { RouterProvider } from 'react-router-dom'
+import Router from './router/Router'
 
 const App = () => {
   return (
-    <div className='bg--main'>
-      <Header/>
+    <div className='bg--main rounded-bottom-5 '>
+      <RouterProvider router={Router}/>
     </div>
   )
 }
