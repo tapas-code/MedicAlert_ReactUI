@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import mid_data from "../data/MedIdMegaMenuData";
 import MegaMenuCard from "./MegaMenuCard";
+import MegaMenuAd from "./MegaMenuAd";
 
 const MedIdMegaMenu = () => {
     return (
@@ -19,7 +20,9 @@ const MedIdMegaMenu = () => {
                         ))}
                     </Row>
                 </Col>
-                <Col lg={3}>Hello1</Col>
+                <Col lg={3} className="p-3">
+                    <MegaMenuAd />
+                </Col>
             </Row>
         </Container>
         </>

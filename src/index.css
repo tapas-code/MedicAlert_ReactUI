@@ -6,9 +6,7 @@
 
 body{
   height: 100vh;
-  background: #56b8dd;
-  background: linear-gradient(160deg, rgba(109, 202, 236, 0.829) 0%, rgba(255, 255, 255, 0.801) 75%, rgba(236, 236, 236, 0.815) 100%);
-  min-width: 375px;
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #d7feff 100%);
 }
 
 /* BACKGROUND STYLING  */
@@ -18,8 +16,14 @@ body{
 }
 
 /* NAVBAR STYLING  */
-.myNavbar:hover{
-  background: #fff;
+#myNavbar{
+  transition: background-color .2s ease-in-out;
+}
+#myNavbar:not(:hover){
+  transition-delay: 0.8s; 
+}
+#myNavbar:hover{
+  background-color: #fff;
 }
 
 /* CUSTOM STYLINGS */
@@ -41,6 +45,19 @@ body{
 }
 .med--card:hover{
   background-color: rgba(0, 0, 0, 0.103);
+  cursor: pointer;
+}
+.med--link:hover{
+  background-color: rgba(179, 248, 225, 0.336);
+}
+
+/* Ad Image Styling  */
+.ad--img{
+  height: 30vh;
+  background-color: rgba(179, 248, 225, 0.336);
+  background-image: url('./assets/images/watch.png');
+  background-position: center;
+  background-size: cover;
 }
 
 

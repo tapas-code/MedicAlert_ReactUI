@@ -7,7 +7,7 @@ const MedicalIdDropdown = () => {
     return (
         <div
             className="med--id">
-            <Nav.Link>Medical ID's</Nav.Link>
+            <Nav.Link className="med--link">Medical ID's</Nav.Link>
             <MedIdMegaMenu />
         </div>
     );

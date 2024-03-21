@@ -8,7 +8,7 @@ import MedicalIdDropdown from "./MedicalIdDropdown";
 const Header = () => {
     return (
         <>
-        <Navbar id="myNavbar" expand="lg" className="bg-transparent px-2">
+        <Navbar id="myNavbar" expand="lg" className="px-2">
             <Container fluid>
                 {/* ------ LOGO -----  */}
                 <Navbar.Brand className="">
