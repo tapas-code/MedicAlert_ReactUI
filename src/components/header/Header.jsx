@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { Image, Button } from "react-bootstrap";
-import MedicAlertLogo from '../assets/images/Maf-log.png';
-import UserSvg from '../assets/svg/user.svg'
-import MedicalIdDropdown from "./MedicalIdDropdown";
+import MedicAlertLogo from '../../assets/images/Maf-log.png';
+import UserSvg from '../../assets/svg/user.svg'
+import MedicalIdDropdown from "./medical_ids/MedicalIdDropdown";
 
 const Header = () => {
     return (

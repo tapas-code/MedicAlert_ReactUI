@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
-import mid_data from "../data/MedIdMegaMenuData";
+import mid_data from "../../../data/MedIdMegaMenuData";
 import MegaMenuCard from "./MegaMenuCard";
 import MegaMenuAd from "./MegaMenuAd";
 
