@@ -48,17 +48,41 @@ background: linear-gradient(70deg, rgb(248, 248, 248) 0%, rgba(199,238,255,1) 27
 .z-index-1{
   z-index: 1;
 }
+.side--bar{
+  max-width: 80vw;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+.sidebar--header{
+  letter-spacing: .1rem;
+}
+.font--medium{
+  font-size: 1.1rem;
+}
+.bg--green{
+  background-color: var(--hover--color);
+}
 /* ---------------------- HEADER STYLING ------------------- */
 
 /* NAVBAR STYLING  */
-#myNavbar{
-  transition: background-color .2s ease-in-out;
+@media (min-width: 992px) {
+  #myNavbar{
+    transition: background-color .2s ease-in-out;
+  }
+  #myNavbar:not(:hover){
+    transition-delay: 0.8s; 
+  }
+  #myNavbar:hover{
+    background-color: #fff;
+  }
+  .ad--img{
+    max-width: 60%;
+  }
 }
-#myNavbar:not(:hover){
-  transition-delay: 0.8s; 
-}
-#myNavbar:hover{
-  background-color: #fff;
+@media (min-width: 1281px) {
+  .ad--img{
+    max-width: 50%;
+  }
 }
 /* MEDICAL ID MEGAMENU STYLINGS  */
 .med--menu{
@@ -79,14 +103,8 @@ background: linear-gradient(70deg, rgb(248, 248, 248) 0%, rgba(199,238,255,1) 27
 .med--link:hover{
   background-color: var(--hover--color);
 }
-/* Ad Image Styling  */
-.ad--img{
-  height: 30vh;
-  background-color: var(--hover--color);
-  background-image: url('./assets/images/watch.png');
-  background-position: center;
-  background-size: cover;
-}
+
+
 
 /* ---------------------- MAIN STYLING ------------------- */
 
@@ -94,7 +112,10 @@ background: linear-gradient(70deg, rgb(248, 248, 248) 0%, rgba(199,238,255,1) 27
 
 @media (max-width: 575.98px) {
   .h--font{
-      font-size: 2.5rem;
+      font-size: 3rem;
+  }
+  .navbar--logo{
+      width: 160px;
   }
 }
 @media (max-width: 991px){
