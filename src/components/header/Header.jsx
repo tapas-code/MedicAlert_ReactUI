@@ -4,6 +4,8 @@ import { Image, Button } from "react-bootstrap";
 import MedicAlertLogo from '../../assets/images/Maf-log.png';
 import UserSvg from '../../assets/svg/user.svg'
 import MedicalIdDropdown from "./medical_ids/MedicalIdDropdown";
+import Protection247Dropdown from "./247_protection/Protection247Dropdown";
+import MemberStoriesDropdown from "./member_stories/MemberStoriesDropdown";
 
 const Header = () => {
     return (
@@ -27,8 +29,8 @@ const Header = () => {
                     <Nav className=" mx-auto d-flex align-items-center gap-lg-3 gap-xl-4 gap-xxl-5 font--small fw-bold">
                         <Nav.Link>How it Work's</Nav.Link>
                         <MedicalIdDropdown />
-                        <Nav.Link>24/7 Protection</Nav.Link>
-                        <Nav.Link>Member Stories</Nav.Link>
+                        <Protection247Dropdown />
+                        <MemberStoriesDropdown />
                     </Nav>
 
                     {/* DONATE BUTTON  */}

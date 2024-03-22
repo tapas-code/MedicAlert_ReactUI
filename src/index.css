@@ -1,5 +1,6 @@
 :root{
   --secondary--color: #0a4277;
+  --hover--color: rgba(179, 248, 225, 0.336);
 }
 
 *{
@@ -15,8 +16,8 @@ body{
 /* BACKGROUND STYLING  */
 .bg--main{
   min-width: 375px;
-  background: rgb(241,241,241);
-background: linear-gradient(70deg, rgba(241,241,241,1) 0%, rgba(199,238,255,1) 27%, rgba(171,228,255,1) 46%, rgba(242,242,242,1) 78%);
+  background: rgb(248, 248, 248);
+background: linear-gradient(70deg, rgb(248, 248, 248) 0%, rgba(199,238,255,1) 27%, rgba(171,228,255,1) 46%, rgba(248,248,248,1) 78%);
   /* border: 2px solid black; */
 }
 
@@ -37,7 +38,16 @@ background: linear-gradient(70deg, rgba(241,241,241,1) 0%, rgba(199,238,255,1) 2
 .right--text{
   width: 60%;
 }
-
+.hover--link:hover{
+  background-color: var(--hover--color);
+}
+.hover--body>p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.z-index-1{
+  z-index: 1;
+}
 /* ---------------------- HEADER STYLING ------------------- */
 
 /* NAVBAR STYLING  */
@@ -63,16 +73,16 @@ background: linear-gradient(70deg, rgba(241,241,241,1) 0%, rgba(199,238,255,1) 2
   max-height: 100%;
 }
 .med--card:hover{
-  background-color: rgba(0, 0, 0, 0.103);
+  background-color: var(--hover--color);
   cursor: pointer;
 }
 .med--link:hover{
-  background-color: rgba(179, 248, 225, 0.336);
+  background-color: var(--hover--color);
 }
 /* Ad Image Styling  */
 .ad--img{
   height: 30vh;
-  background-color: rgba(179, 248, 225, 0.336);
+  background-color: var(--hover--color);
   background-image: url('./assets/images/watch.png');
   background-position: center;
   background-size: cover;
