@@ -31,7 +31,7 @@ const MemberStoriesDropdown = () => {
                 <div
                     id="member-stories-text"
                     className=" bg-white hover--body position-absolute rounded-bottom-3 pt-3">
-                    {ms_data && ms_data.map(d => (<p key={d.id} className="fs-6 fw-medium px-3 lh-sm">{d.title}</p>))}
+                    {ms_data && ms_data.map(d => (<p key={d.id} className="fs-6 fw-medium px-3 lh-sm text-fade">{d.title}</p>))}
                 </div>
             </Collapse>
         </div>
