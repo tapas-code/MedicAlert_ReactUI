@@ -21,7 +21,7 @@ const Protection247Dropdown = () => {
             onMouseLeave={handleMouseLeave}
             aria-controls="protection-247-text"
             aria-expanded={open}
-            className="z-index-1">
+            className=" hover--div">
             <Nav.Link className="hover--link position-relative">
                 24/7 Protection
             </Nav.Link>

@@ -22,7 +22,7 @@ const MemberStoriesDropdown = () => {
             onMouseLeave={handleMouseLeave}
             aria-controls="member-stories-text"
             aria-expanded={open}
-            className="z-index-1">
+            className=" hover--div">
             <Nav.Link className="hover--link position-relative">
                 Member Stories
             </Nav.Link>
