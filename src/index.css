@@ -10,7 +10,7 @@
 }
 
 body {
-    min-width: 375px;
+    min-width: 400px;
     height: 5000px;
 }
 .overlay--dark {
@@ -76,6 +76,9 @@ body {
 }
 .hover--div:hover .hover--link {
     background-color: var(--hover--color);
+}
+.user--avatar:hover{
+    cursor: pointer;
 }
 /* ---------------------- HEADER STYLING ------------------- */
 

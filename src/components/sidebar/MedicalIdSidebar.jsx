@@ -23,7 +23,7 @@ const MedicalIdSidebar = ({show, onHide, onBack}) => {
                 <p className='fs-5 fw-medium'>QR Code Medical Id for Apple Watch</p>
                 <p className='fs-6 lh-sm'>⭐⭐⭐⭐⭐</p>
                 <div className='d-flex justify-content-center'>
-                    <Image fluid src={WatchImg} alt="" />
+                    <Image fluid src={WatchImg} alt="Watch image" />
 
                 </div>
             </Container>
